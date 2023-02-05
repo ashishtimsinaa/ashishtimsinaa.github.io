@@ -310,34 +310,6 @@ li .profile_title {
 }
 
 /* certification Page */
-.table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.td,
-.th {
-  border: 0.1rem solid var(--brand-color);
-  padding: 8px;
-  text-align: left;
-  border-radius: 0.4rem;
-}
-
-.cert_page .cert_container {
-  margin: 0.4rem;
-}
-
-.resume_title {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.resume_title i {
-  color: var(--brand-color);
-}
-
 .resume_box {
   margin: 1.5rem 0;
 }
@@ -360,6 +332,23 @@ li .profile_title {
 .resume_box .resume_text {
   font-size: 1rem;
   font-weight: 300;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.td,
+.th {
+  border: 0.1rem solid var(--brand-color);
+  padding: 8px;
+  text-align: left;
+  border-radius: 0.4rem;
+}
+
+.cert_page .cert_container {
+  margin: 0.4rem;
 }
 /* Contact Page */
 .contact_page .contact_container {
